@@ -1,0 +1,52 @@
+/* Assuming this is your Todolist.css file */
+
+.table-container {
+ 
+    width: 100%;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 10px;
+    border: 1px  #ddd; 
+  }
+  
+  .table-container th {
+    background-color: #747474; /* Gray background for table headers */
+    color: #ffffff;
+  }
+  .card-body{
+    display: flex;
+    
+
+  }
+  
+.mask-custom {
+  background: rgba(24, 24, 16, .2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+#input{
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid  #373B44;
+	background: rgba( #373B44, .2);
+	border-radius: .2em .2em 0 0;
+	
+	color: #ffffff;
+    width:350px;
+    height: 34px;
+    border-radius: 30px;
+    background-color:  rgba(156, 156, 156, 0.5);
+    backdrop-filter: blur(7px);
+}

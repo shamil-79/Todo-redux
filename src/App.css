@@ -1,5 +1,12 @@
 .App {
+  background-image: url("../src/image/pexels-elijah-o\'donnell-3473569.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ 
   text-align: center;
+  
 }
 
 .App-logo {
