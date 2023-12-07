@@ -42,10 +42,10 @@ const Todolist = () => {
                           <thead style={{ marginRight: "10px" }}>
                             <tr>
                               <th>
-                                <CiBoxList style={{ fontSize: "20px" }} />
+                                <CiBoxList style={{ fontSize: "20px",color:"black"}} />
                               </th>
-                              <th>Task-List</th>
-                              <th>Actions</th>
+                              <th style={{color:"black"}}>Task-List</th>
+                              <th style={{color:"black"}}>Actions</th>
                             </tr>
                           </thead>
                           <tbody>

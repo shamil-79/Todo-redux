@@ -23,7 +23,7 @@
   }
   .card-body{
     display: flex;
-    
+
 
   }
   
@@ -50,3 +50,4 @@
     background-color:  rgba(156, 156, 156, 0.5);
     backdrop-filter: blur(7px);
 }
+
